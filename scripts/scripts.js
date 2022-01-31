@@ -1,0 +1,1 @@
+console.log('scripts are wired up')
