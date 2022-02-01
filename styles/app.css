@@ -14,6 +14,11 @@
   color: #c9bbbb;
 }
 
+/* display background color black on navbar scroll */
+.navbarScroll.navbarDark {
+  background-color: black;
+}
+
 /* Main banner styles */
 .bgimage {
   height: 100vh;
@@ -43,6 +48,30 @@
 /* About page styles */
 .imageAboutPage {
   width: 100%;
+}
+
+/* Services section styles */
+.servicesText.card {
+  height: 280px;
+  cursor: pointer;
+}
+
+.servicesIcon {
+  font-size: 36px;
+  text-align: center;
+  width: 100%;
+}
+
+.card-title {
+  text-align: center;
+}
+
+.card:hover .servicesIcon {
+  color: #008000;
+}
+
+.servicesText:hover {
+  border: 1px solid #008000;
 }
 
 /*# sourceMappingURL=app.css.map */
