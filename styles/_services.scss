@@ -1,0 +1,20 @@
+/* Services section styles */
+
+.servicesText.card {
+  height: 280px;
+  cursor: pointer;
+}
+.servicesIcon {
+  font-size: 36px;
+  text-align: center;
+  width: 100%;
+}
+.card-title {
+  text-align: center;
+}
+.card:hover .servicesIcon {
+  color: $services-hover-text;
+}
+.servicesText:hover {
+  border: 1px solid $services-hover-text;
+}

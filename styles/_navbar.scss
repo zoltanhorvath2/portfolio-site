@@ -1,0 +1,15 @@
+/* Navbar styles */
+
+.navbar-brand {
+  color: $navbar-text-color;
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: $navbar-text-color;
+}
+
+/* display background color black on navbar scroll */
+.navbarScroll.navbarDark {
+  background-color: $navbar-dark-background;
+}
+

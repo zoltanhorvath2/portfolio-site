@@ -19,7 +19,7 @@
   background-color: black;
 }
 
-/* Main banner styles */
+/* Header styles */
 .bgimage {
   height: 100vh;
   background: url("../images/laptop.jpg");
@@ -45,7 +45,7 @@
   color: white;
 }
 
-/* About page styles */
+/* About me page styles */
 .imageAboutPage {
   width: 100%;
 }
