@@ -1,4 +1,4 @@
-//General styles
+/* General styles */
 
 * {
   box-sizing: border-box;
@@ -6,7 +6,17 @@
   padding: 0;
 }
 
-//Main banner styles
+/* Navbar styles */
+
+.navbar-brand {
+  color: rgb(201, 187, 187);
+}
+
+.navbar-nav .nav-item .nav-link {
+  color:rgb(201, 187, 187);
+}
+
+/* Main banner styles */
 
 .bgimage {
   height:100vh;
@@ -14,6 +24,7 @@
   background-size:cover;
   position:relative;
 }
+
 /* text css above hero image*/
 .hero_title {
   font-size: 4.5rem;

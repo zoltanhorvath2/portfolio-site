@@ -1,9 +1,20 @@
+/* General styles */
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
+/* Navbar styles */
+.navbar-brand {
+  color: #c9bbbb;
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: #c9bbbb;
+}
+
+/* Main banner styles */
 .bgimage {
   height: 100vh;
   background: url("../images/laptop.jpg");
