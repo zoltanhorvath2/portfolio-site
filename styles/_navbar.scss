@@ -1,14 +1,15 @@
 /* Navbar styles */
 
 .navbar-brand {
-  color: rgb(201, 187, 187);
+  color: $navbar-text-color;
 }
 
 .navbar-nav .nav-item .nav-link {
-  color:rgb(201, 187, 187);
+  color: $navbar-text-color;
 }
 
 /* display background color black on navbar scroll */
 .navbarScroll.navbarDark {
-  background-color: black;
+  background-color: $navbar-dark-background;
 }
+
