@@ -9,18 +9,34 @@
   text-indent: 40px;
 }
 
+h1 {
+  margin-top: 15px;
+}
+
 /* Navbar styles */
 .navbar-brand {
-  color: #c9bbbb;
+  color: white;
+}
+
+.navbar-brand:hover {
+  color: lightblue;
 }
 
 .navbar-nav .nav-item .nav-link {
-  color: #c9bbbb;
+  color: white;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: lightblue;
 }
 
 /* display background color black on navbar scroll */
 .navbarScroll.navbarDark {
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.navbar-toggler-icon {
+  color: white;
 }
 
 /* Header styles */
@@ -63,14 +79,18 @@
   cursor: pointer;
 }
 
-.servicesIcon {
-  font-size: 36px;
-  text-align: center;
-  width: 100%;
+.tech-icon {
+  max-width: 200px;
 }
 
 .card-title {
   text-align: center;
+}
+
+.card-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .card:hover .servicesIcon {
