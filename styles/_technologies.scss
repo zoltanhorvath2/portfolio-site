@@ -4,14 +4,19 @@
   height: 280px;
   cursor: pointer;
 }
-.servicesIcon {
-  font-size: 36px;
-  text-align: center;
-  width: 100%;
+.tech-icon {
+  max-width: 200px;
 }
 .card-title {
   text-align: center;
 }
+
+.card-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .card:hover .servicesIcon {
   color: $services-hover-text;
 }
