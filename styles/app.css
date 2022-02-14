@@ -87,12 +87,6 @@ h1 {
   text-align: center;
 }
 
-.card-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .card:hover .servicesIcon {
   color: #008000;
 }
