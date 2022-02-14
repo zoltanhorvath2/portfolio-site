@@ -4,12 +4,24 @@
   color: $navbar-text-color;
 }
 
+.navbar-brand:hover {
+  color: $hover-text-navigation;
+}
+
 .navbar-nav .nav-item .nav-link {
   color: $navbar-text-color;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: $hover-text-navigation;
 }
 
 /* display background color black on navbar scroll */
 .navbarScroll.navbarDark {
   background-color: $navbar-dark-background;
+}
+
+.navbar-toggler-icon {
+  color: $header-text-color;
 }
 

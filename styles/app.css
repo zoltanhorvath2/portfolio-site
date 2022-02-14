@@ -14,13 +14,25 @@
   color: #c9bbbb;
 }
 
+.navbar-brand:hover {
+  color: lightblue;
+}
+
 .navbar-nav .nav-item .nav-link {
   color: #c9bbbb;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: lightblue;
 }
 
 /* display background color black on navbar scroll */
 .navbarScroll.navbarDark {
   background-color: black;
+}
+
+.navbar-toggler-icon {
+  color: white;
 }
 
 /* Header styles */
