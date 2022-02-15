@@ -9,6 +9,12 @@
   color: $hover-text-navigation;
 }
 
+.navbar-nav .nav-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .navbar-nav .nav-item .nav-link {
   color: $navbar-text-color;
   font-size: 1.2rem;
