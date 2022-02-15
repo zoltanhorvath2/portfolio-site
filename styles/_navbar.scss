@@ -2,6 +2,7 @@
 
 .navbar-brand {
   color: $navbar-text-color;
+  font-size: 1.4rem;
 }
 
 .navbar-brand:hover {
@@ -18,9 +19,12 @@
   color: $hover-text-navigation;
 }
 
-/* display background color black on navbar scroll */
 .navbar {
   background-color: $navbar-dark-background;
+}
+
+.navbar-toggler {
+  border: none;
 }
 
 .navbar-toggler-icon {

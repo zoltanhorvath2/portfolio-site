@@ -2,18 +2,10 @@
 
 .servicesText.card {
   height: 280px;
-  cursor: pointer;
 }
 .tech-icon {
   max-width: 200px;
 }
 .card-title {
   text-align: center;
-}
-
-.card:hover .servicesIcon {
-  color: $services-hover-text;
-}
-.servicesText:hover {
-  border: 1px solid $services-hover-text;
 }
