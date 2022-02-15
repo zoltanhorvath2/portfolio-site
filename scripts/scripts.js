@@ -1,12 +1,19 @@
-// make navbar dark onscroll
-const header = document.querySelector('.navbar');
+document.addEventListener('DOMContentLoaded', (e) => {
+    
+    /* Hiding nav-items onclick */
+    const navItems = document.querySelectorAll('.nav-link')
+    const navbarCollapse = document.querySelector('#navbar_supported_content')
 
-window.onscroll = function() {
-    let top = window.scrollY;
-    if(top >=100) {
-        header.classList.add('navbarDark');
-    }
-    else {
-        header.classList.remove('navbarDark');
-    }
-}
+
+    navItems.forEach((element) => {
+        element.addEventListener('click', () => {
+            navbarCollapse.classList.remove('show')
+        })
+    })
+
+    
+
+
+
+
+});

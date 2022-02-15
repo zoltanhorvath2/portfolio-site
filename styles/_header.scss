@@ -24,4 +24,15 @@
   left: 50%;
   transform: translate(-50%, -50%);
   color: $header-text-color;
+  animation: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+.btn-success {
+  background-color: rgb(74, 222, 128);
+  color: black;
 }
